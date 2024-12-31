@@ -7,7 +7,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 header{
     background-color: #2563eb;
-    padding: 20px 2%;
+    padding: 10px 2%;
     display: flex;
     justify-content: space-between;
 }
@@ -22,11 +22,16 @@ header{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    margin-left: 0 8px;
 }
 /* queria saber como alinhar o meu icone;com a minha imagem; sendo que a classe info-header me prejudica 
 outra forma penso que posso me ajudar é declarar 2 classes diferente botar ambas concatenar para ter o mesmo estilo no header basico e depois usa-las normalmente 
 */
 
+.info-header .fa-solid{
+    margin:  0 10px;
+}
+/*tentei svg não deu certo botei fa-bell,mudei para fa-solid por que todos os itens tem(até o momento todos tem)*/
 .icons-header{
     margin: 0 0 0 10px;
 }
