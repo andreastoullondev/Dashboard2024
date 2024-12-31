@@ -1,0 +1,63 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{height: 100%;}
+
+header{
+    background-color: #2563eb;
+    padding: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-header{
+    color: #bfdbfe;
+    display: flex;
+   
+}
+
+.info-header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 0 8px;
+}
+/* queria saber como alinhar o meu icone;com a minha imagem; sendo que a classe info-header me prejudica 
+outra forma penso que posso me ajudar é declarar 2 classes diferente botar ambas concatenar para ter o mesmo estilo no header basico e depois usa-las normalmente 
+*/
+
+.info-header .fa-solid{
+    margin:  0 10px;
+}
+/*tentei svg não deu certo botei fa-bell,mudei para fa-solid por que todos os itens tem(até o momento todos tem)*/
+.icons-header{
+    margin: 0 0 0 10px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.sidebar{
+    width: 20%;
+    background-color: #14b8a6 ;
+    height: 100%;
+}
+.sidebar h3{
+    color:  #fafaf9;
+    font-size: 20px;
+}
+.sidebar a {
+    display: block;
+    text-decoration: none;
+}
+
+.content{
+    width: 80%;
+    background-color: #a3e635 ;
+}
