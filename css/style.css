@@ -23,7 +23,9 @@ header{
     height: 50px;
     border-radius: 50%;
 }
-/* queria saber como alinhar o meu icone;com a minha imagem; sendo que a classe info-header me prejudica */
+/* queria saber como alinhar o meu icone;com a minha imagem; sendo que a classe info-header me prejudica 
+outra forma penso que posso me ajudar é declarar 2 classes diferente botar ambas concatenar para ter o mesmo estilo no header basico e depois usa-las normalmente 
+*/
 
 .icons-header{
     margin: 0 0 0 10px;
